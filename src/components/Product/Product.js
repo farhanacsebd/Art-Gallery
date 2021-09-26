@@ -1,6 +1,8 @@
+// import in here
 import React from 'react';
 import './Product.css'
 const Product = (props) => {
+    // using  destructuing 
     const { Name, Artist, img, Dimensions, Created, price } = props.product;
     // console.log(props)
     return (

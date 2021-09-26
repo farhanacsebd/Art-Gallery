@@ -1,8 +1,11 @@
+// import in here
 import React from 'react';
 
 import './Header.css'
 const Header = () => {
     return (
+
+        // using navbar 
         <div className="nav-bg">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
@@ -30,6 +33,9 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
+            {/* nav end */}
+
+            {/* using header  */}
             <h1 className="header fw-bold text-primary">Art Gallery</h1>
             <h4 className="budget text-danger">Total budget Art Gallery For 10 million</h4>
 
