@@ -13,7 +13,7 @@ const Cart = (props) => {
             <br />
             <h6>Product:{props.cart.length}</h6>
             <br />
-            <p>Total:{total}</p>
+            <p>Total:${total}</p>
 
             <ul>
                 {

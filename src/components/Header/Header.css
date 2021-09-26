@@ -1,6 +1,10 @@
 .header {
     text-align: Center;
     margin-top: 5px;
+}
+
+.budget {
+    text-align: center;
     margin-bottom: 40px;
 }
 

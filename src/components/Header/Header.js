@@ -27,7 +27,8 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <h1 className="header">Art Gallery</h1>
+            <h1 className="header fw-bold text-primary">Art Gallery</h1>
+            <h4 className="budget text-danger">Total budget Art Gallery For 10 million</h4>
 
         </div>
     );

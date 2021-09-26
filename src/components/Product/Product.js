@@ -12,7 +12,7 @@ const Product = (props) => {
                     </div>
                     <div className="col-md-6">
                         <div className="card-body">
-                            <h5 className="card-title fw-bold">{Name}</h5>
+                            <h5 className="card-title fw-bold text-primary">{Name}</h5>
                             <p><span className='fw-bold'>Artist: </span>{Artist}
                                 <br />
                                 <span className='fw-bold'>Created: </span>{Created}
@@ -23,7 +23,7 @@ const Product = (props) => {
 
                                 <span className='fw-bold'>Price: </span>${price}
                             </p>
-                            <button onClick={() => props.handleAddToCart(props.product, Name)} className='btn btn-success'><i className="fas fa-shopping-cart"></i> Buy Now</button>
+                            <button onClick={() => props.handleAddToCart(props.product, Name)} className='btn btn-danger text-light'><i className="fas fa-shopping-cart"></i> Buy Now</button>
 
                         </div>
                     </div>
