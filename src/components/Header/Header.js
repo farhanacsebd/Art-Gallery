@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css'
 const Header = () => {
     return (
-        <div>
+        <div className="nav-bg">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand fw-bold" href="/navbar">Online Art Gallery</a>
